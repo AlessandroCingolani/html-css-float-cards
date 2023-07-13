@@ -9,10 +9,11 @@ body{
 }
 
 /* header */
-header{
-  width: 70%;
-  max-width: 1200px;
-  margin: 30px auto;
+
+.container,header{
+  max-width: 1100px;
+  min-width: 350px;
+  margin: 40px auto;
 }
 
 .title{
@@ -29,14 +30,10 @@ header p{
 /* /header */
 
 /* main */
-.container{
-  width: 70%;
-  margin: 40px auto;
-}
 
 /* block id suddivision dimension  */
 .id-block{
-  width: calc(100% / 3 - 20px);
+  width: 350px;
   color: white;
   background-color: black;
   margin: 0  0 40px 15px;
@@ -46,7 +43,6 @@ header p{
 
 
 .details{
-  display: inline-block;
   padding: 10px 0 0 15px;
 }
 
@@ -59,6 +55,7 @@ header p{
 
 .img-profile img{
   height: 84px;
+  display: block;
 }
 
 .float-left{
