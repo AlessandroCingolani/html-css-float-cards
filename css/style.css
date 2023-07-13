@@ -7,3 +7,17 @@
 body{
   font-family: 'Fredoka', sans-serif;
 }
+
+header{
+  background-color: blue;
+  width: 80%;
+  height: 100px;
+  margin: 30px auto;
+}
+
+.container{
+  width: 80%;
+  height: 200px;
+  background-color: brown;
+  margin: 20px auto;
+}
