@@ -67,4 +67,9 @@ img{
   display: table;
   clear: both;
 }
+
+.name{
+  text-transform: uppercase;
+  font-weight: bold;
+}
 /* /main */
