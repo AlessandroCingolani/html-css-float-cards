@@ -37,7 +37,7 @@ header p{
   width: calc(100% / 3 - 25px);
   color: white;
   background-color: black;
-  margin: 0 0 40px 20px;
+  margin: 0  0 40px 20px;
   border: 2px solid rgba(128, 128, 128, 0.463);
 }
 
@@ -54,7 +54,7 @@ header p{
   padding-bottom: 5px;
 }
 
-img{
+.img-profile img{
   height: 84px;
 }
 
@@ -72,5 +72,11 @@ img{
 .name{
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.email{
+  text-decoration: none;
+  text-transform: lowercase;
+  color: rgb(77, 204, 242);
 }
 /* /main */
