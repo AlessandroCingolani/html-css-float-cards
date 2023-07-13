@@ -68,6 +68,7 @@ img{
   clear: both;
 }
 
+/* uppercase for all names */
 .name{
   text-transform: uppercase;
   font-weight: bold;
