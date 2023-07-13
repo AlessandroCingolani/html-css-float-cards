@@ -36,7 +36,7 @@ header p{
   width: 350px;
   color: white;
   background-color: black;
-  margin: 0  0 40px 15px;
+  margin: 0  0 40px 10px;
   border: 5px solid rgba(255, 255, 255, 0.96);
   border-radius: 4px;
 }
@@ -76,6 +76,7 @@ header p{
 
 .role{
   font-size: 0.8rem;
+  text-transform: capitalize;
 }
 
 .email{
