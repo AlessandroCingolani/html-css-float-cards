@@ -23,6 +23,7 @@ header{
 
 header p{
   text-align: center;
+  font-size: 0.9rem;
 }
 /* /header */
 
@@ -44,7 +45,7 @@ header p{
 
 .details{
   display: inline-block;
-  padding: 10px 0 0 10px;
+  padding: 10px 0 0 15px;
 }
 
 /*padding from name role and details */
@@ -72,6 +73,10 @@ header p{
 .name{
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.role{
+  font-size: 0.8rem;
 }
 
 .email{
