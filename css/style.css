@@ -10,7 +10,6 @@ body{
 
 /* header */
 header{
-  background-color: blue;
   width: 70%;
   max-width: 1200px;
   margin: 30px auto;
@@ -30,15 +29,16 @@ header p{
 /* main */
 .container{
   width: 70%;
-  background-color: brown;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
+/* block id suddivision dimension  */
 .id-block{
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 3 - 25px);
   color: white;
   background-color: black;
   margin: 0 0 40px 20px;
+  border: 2px solid rgba(128, 128, 128, 0.463);
 }
 
 
@@ -47,8 +47,15 @@ header p{
   padding: 10px 0 0 10px;
 }
 
+/*padding from name role and details */
+.name,
+.role,
+.details a{
+  padding-bottom: 5px;
+}
+
 img{
-  width: 80px;
+  height: 84px;
 }
 
 .float-left{
