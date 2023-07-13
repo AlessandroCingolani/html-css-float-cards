@@ -35,11 +35,12 @@ header p{
 
 /* block id suddivision dimension  */
 .id-block{
-  width: calc(100% / 3 - 25px);
+  width: calc(100% / 3 - 20px);
   color: white;
   background-color: black;
-  margin: 0  0 40px 20px;
-  border: 2px solid rgba(128, 128, 128, 0.463);
+  margin: 0  0 40px 15px;
+  border: 5px solid rgba(255, 255, 255, 0.96);
+  border-radius: 4px;
 }
 
 
