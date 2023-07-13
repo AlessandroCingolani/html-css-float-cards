@@ -11,6 +11,7 @@ body{
 header{
   background-color: blue;
   width: 70%;
+  max-width: 1200px;
   margin: 30px auto;
 }
 
@@ -31,3 +32,19 @@ header p{
   margin: 20px auto;
 }
 
+.id-block{
+  width: 200px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.float-left{
+  float: left;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
